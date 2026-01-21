@@ -75,3 +75,8 @@ WHERE Amount BETWEEN 800 AND 3000;
 SELECT *
 FROM dbo.CustomerInfo
 WHERE CustomerName LIKE 'S%';
+
+SELECT *
+FROM dbo.OrderInfo
+ORDER BY Amount DESC;
+
